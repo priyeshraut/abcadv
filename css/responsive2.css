@@ -1,0 +1,162 @@
+@media screen and (max-width: 2560px)  {
+    body {
+        margin-inline: 20%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    body {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    html {
+        font-size: 40%;
+    }
+
+    .container a img {
+        width: 2rem;
+    }
+
+    .secondNavAdd img {
+        width: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 25%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    html {
+        font-size: 20%;
+    }
+
+    .pro-container {
+        max-width: 100%;
+        margin-inline: 2rem;
+    }
+
+    .firstFooter {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .firstNav, .secondNav, .thirdNav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .firstNav a {
+        padding-inline: 2rem;
+    }
+    .secondNav ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .secondNav ul li {
+        padding-inline: 8rem;
+    }
+
+    .thirdNav .thirdNav-inner {
+        display: flex;
+        flex-direction: row;
+    }
+    
+
+    .container, .v-class {
+        display: none;
+    }
+
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        transition: all 1s ease-in-out;
+    }
+    
+    .nav-list {
+        flex-direction: column;
+    }
+
+    .nav-list li {
+        padding: 3rem;
+    }
+
+    
+    .h-nav {
+        height: 10rem;
+    }
+    
+    .logo {
+        position: sticky;
+        top: 1rem;
+    }
+        
+    .burger {
+        display: block;
+    }
+
+    .founder {
+        margin-inline: 5rem;
+    }
+
+    .founder img {
+        width: 70%;
+        height: 70%;
+        display: block;
+        margin: auto;
+    }
+
+    .founder p {
+        margin-inline: 19rem;
+    }
+
+    .item-width {
+        width: 100%;
+    }
+
+    .address {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form {
+        margin: 0;
+        /* width: 100%; */
+    }
+
+    .iframe {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .iframe iframe {
+        width: 100%;
+    }
+
+@media screen and (max-width: 375px) {
+    html {
+        font-size: 15%;
+    }
+
+    .founder img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .founder p {
+        margin-inline: 0;
+    }
+}
+    
+
+    

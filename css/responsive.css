@@ -1,0 +1,172 @@
+@media only screen and (max-width: 1260px) {
+    .nav-list, .navbar {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar {
+        height: 449px;
+        text-align: center;
+        flex-direction: column;
+        transition: all 1s ease-out;
+    }
+
+    .logo {
+        position: sticky;
+        top: 30px;
+        margin: 10px auto;
+        vertical-align: middle;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box-main {
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    .rightNav {
+        text-align: center;
+        width: auto;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .h-nav {
+        height: 100px;
+    }
+
+    .v-class {
+        opacity: 0;
+    }
+    
+}
+
+@media only screen and (max-width: 1050px) {
+    .form {
+        width: 40%;
+        margin: auto;
+    }
+
+    .text {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 974px) {
+    .firstFooter {
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        margin: auto;
+    }
+
+    .firstNav, .secondNav, .thirdNav {
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        width: auto;
+        text-align: center;
+
+    }
+}
+
+@media only screen and (max-width: 926px) {
+    .founder {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 888px) {
+    .iframe {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .iframe-1, .iframe-2, .iframe-3 {
+        width: 995px;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 836px) {
+    .pro-container {
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 682px) {
+    .form {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 626px) {
+    .logo {
+        position: sticky;
+        top: 60px;
+        vertical-align: middle;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .none {
+        display: none;
+    }
+  
+}
+
+@media only screen and (max-width: 550px) {
+
+    .about {
+       padding: 5px;
+       width: 100%;
+    }
+} 
+
+@media only screen and (max-width: 514px) {
+    .main-product {
+        font-size: 25px;
+    }
+} 
+
+@media only screen and (max-width: 480px) {
+    .firstSection {
+        padding: 40px 0;
+        font-size: 80%;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .none2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 412px) {
+    .img2 {
+        width: 150px;
+        margin: auto;
+    }
+}
+
+
+@media only screen and (max-width: 412px) {
+    .sub-contact {
+        font-size: 28px;
+    }
+}
+
+
+
+
+
+
+
